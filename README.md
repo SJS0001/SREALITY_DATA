@@ -12,7 +12,6 @@ Na základě analýzy **1 237 aktivních inzerátů** s průměrnou dobou vystav
 * **Lokalizace:** Nejvyšší koncentrace nabídek se nachází v městské části **Zábrdovice** (přes 140 inzerátů).
 
 ## 🛠️ Technická Architektura
-Projekt využívá **Medallion Architecture** implementovanou v prostředí Databricks:
 
 ### 1. Bronze Layer (Raw Data)
 * **Ingestion:** Automatizovaný Python scraper spouštěný denně v 06:00 jako Databricks Job.
