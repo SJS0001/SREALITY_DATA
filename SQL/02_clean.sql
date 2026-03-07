@@ -18,6 +18,8 @@ WHERE price IS NOT NULL
   AND longitude IS NOT NULL
   AND first_seen IS NOT NULL
   AND last_seen IS NOT NULL
-  AND dispozice != 'Pokoj'  
+  AND dispozice != 'Pokoj' 
+  AND dispozice  != '6 a více'
+  AND dispozice != 'Atypický'
   AND price > 1000           
   AND velikost > 5
