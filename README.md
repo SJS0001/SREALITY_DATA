@@ -37,4 +37,6 @@ Data jsou vizualizována v interaktivním Databricks SQL Dashboardu, který posk
 
 * Počet nabídek podle městských částí: Horizontální analýza dostupnosti bydlení v jednotlivých čtvrtích. Celkový dataset obsahuje 1 237 aktivních inzerátů, přičemž největší výběr je v městské části Zábrdovice (přes 140 inzerátů) a Židenice (přes 100 inzerátů).
 
+  Odkaz přímo na DataBricks: https://dbc-4cf67b0e-8b5b.cloud.databricks.com/dashboardsv3/01f119fd085a1cdc82e876f8c36b2358/published?o=7474648947285826
+
   ![Dashboard Screenshot](srealityDashboard.png)
