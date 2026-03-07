@@ -26,5 +26,15 @@ Projekt využívá **Medallion Architecture** implementovanou v prostředí Data
 * **Aggregations:** Finální pohledy (Views) připravené pro vizualizaci.
 * **Reporting:** Automatizované výpočty průměrů podle dispozic a lokalit pro potřeby dashboardu.
 
-## 📈 Vizualizace (Databricks SQL Dashboard)
-Projekt obsahuje interaktivní dashboardy vizualizující:
+### 📈 Vizualizace a Business Intelligence
+Data jsou vizualizována v interaktivním Databricks SQL Dashboardu, který poskytuje čtyři klíčové pohledy na brněnský realitní trh:
+
+* Mapa nájemního trhu v Brně: Geografické zobrazení distribuce nabídek. Velikost bodu reprezentuje počet inzerátů v dané lokalitě, zatímco barva vyjadřuje průměrnou cenu nájmu za m². Pro vyšší přehlednost jsou zobrazeny primárně vnitřní části města.
+
+* Průměrná doba inzerce podle dispozice: Analýza likvidity trhu ukazující, jak rychle se byty pronajímají. Zatímco byty 1+1 jsou v průměru vystaveny pouze 3 dny, u dispozic 2+1 je doba expozice nejdelší, a to 5,67 dne. Celková průměrná doba pronájmu napříč trhem je 3,79 dne.
+
+* Cena za m² podle velikosti bytu: Srovnání jednotkových cen nájmů. Z analýzy vyplývá, že nejvyšší jednotkovou cenu mají byty 1+kk, kde průměr dosahuje téměř 500 Kč/m². U velkých bytů (např. 4+1) cena klesá k cca 260 Kč/m².
+
+* Počet nabídek podle městských částí: Horizontální analýza dostupnosti bydlení v jednotlivých čtvrtích. Celkový dataset obsahuje 1 237 aktivních inzerátů, přičemž největší výběr je v městské části Zábrdovice (přes 140 inzerátů) a Židenice (přes 100 inzerátů).
+
+  ![Dashboard Screenshot](.png)
